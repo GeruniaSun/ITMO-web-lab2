@@ -3,5 +3,27 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>WebLab2</display-name>
+
+  <servlet>
+    <servlet-name>ControllerServlet</servlet-name>
+    <servlet-class>lt.braineater.itmo.web2.servlets.ControllerServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AreaCheckServlet</servlet-name>
+    <servlet-class>lt.braineater.itmo.web2.servlets.AreaCheckServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>LocaleChangeServlet</servlet-name>
+    <servlet-class>lt.braineater.itmo.web2.servlets.LocaleChangeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ControllerServlet</servlet-name>
+    <url-pattern>/calc</url-pattern>
+  </servlet-mapping>
 </web-app>
+
+

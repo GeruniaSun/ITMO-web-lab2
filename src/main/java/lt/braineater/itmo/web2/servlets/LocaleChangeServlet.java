@@ -1,27 +1,28 @@
 package lt.braineater.itmo.web2.servlets;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
-import java.util.ResourceBundle;
 import java.util.Locale;
 
 import java.io.IOException;
 
 public class LocaleChangeServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        request.getParameter("lang");
-        // TODO парс параметра свичом в локаль
-        Locale locale = new Locale("RU", "ru");
+        String language = request.getParameter("lang");
 
-        ResourceBundle bundle = ResourceBundle.getBundle("messages", locale);
-        request.setAttribute("bundle", bundle);
+        Locale locale = switch (language) {
+            case "en" -> new Locale("en");
+            case "lt" -> new Locale("lt", "LT");
+            default -> new Locale("ru", "RU");
+        };
+
         request.setAttribute("locale", locale);
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/index.jsp").forward(request, response);//тут проблема с адресом
     }
 }

@@ -1,27 +1,31 @@
 package lt.braineater.itmo.web2.servlets;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class ControllerServlet extends HttpServlet {
+    private final AreaCheckServlet areaCheckServlet = new AreaCheckServlet();
+    private final LocaleChangeServlet localeChangeServlet = new LocaleChangeServlet();
+
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String path = request.getServletPath();
 
         switch (path) {
             case "/calc":
-                request.getRequestDispatcher("AreaCheckServlet").forward(request, response);
+                areaCheckServlet.doGet(request, response);
                 break;
             case "/locale":
-                request.getRequestDispatcher("LocaleChangeServlet").forward(request, response);
+                localeChangeServlet.doGet(request, response);
                 break;
             default:
                 response.setStatus(HttpServletResponse.SC_NOT_FOUND);
                 break;
         }
+        //response.getWriter().println("ControllerServlet работает!");
     }
 }

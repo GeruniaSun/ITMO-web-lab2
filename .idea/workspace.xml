@@ -5,38 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24936e7e-5d98-4339-a752-210b823675c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/itmo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/saturday.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/scripts/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/Drama_Queen.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/bruh.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/datyche.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/h.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/nepravilno.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/nope.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/oleg.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/oue.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sounds/yeei.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/AreaCheckServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/AreaCheckServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/LocaleChangeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/servlets/LocaleChangeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/braineater/itmo/web2/utils/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../WebLab2\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
